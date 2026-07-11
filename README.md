@@ -1,8 +1,8 @@
-(Install "Gemini CLI" globally with NPM.) [npm install -g @google/gemini-cli]
-(RUN:Gemini CLI)             [?/docs/cli/cli-reference.ll]
-#bash                                     gemini
-(Run w/ NPX: NO PERM. Install)            [<Tabs><TabItem label ="npx">]
-Using NPX (NO INSTALL REQ.)               [npx @google/gemini-cli]
-Execute CLI, directly from main branch on GitHub. (Helpful for testing features still in dev.)                       #bash                                     npx https://github.com/google-gemini/gemini-cli
-</TabItem><TabItem label= "Docker/Podman Sandbox"
-Run the CLI:                              #bash
+(Install "Gemini CLI" globally w/ NPM): npm install -g @google/gemini-cli
+(RUN:Gemini CLI):             ?/docs/cli/cli-reference.ll
+bash                                     gemini
+(Run w/ NPX: NO PERM. Install):           <Tabs><TabItem_label="npx">
+Using NPX (NO INSTALL REQ.):              <npx @google/gemini-cli>
+Execute CLI, directly from main branch on GitHub. (Helpful for testing features still in dev.):                       #bash                                     npx https://github.com/google-gemini/gemini-cli
+</TabItem><TabItem label= "Docker/Podman Sandbox">
+Run the CLI:                              bash.                                    #Run the PUBLISHED SANDBOX IMAGE for a specified CLI version:                    docker run --rm -it us-docker.pkg.dev/ gemini-code-dev/gemini-cli/               sandbox:0.42.0-                           nightly.20260428.g59b2dea0e
