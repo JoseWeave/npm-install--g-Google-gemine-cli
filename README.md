@@ -1,3 +1,3 @@
-INSTALL: "Gemini CLI", globally with npm, (inside the "environment")               # npm install -g Google-gemine-cli
-RUN: -Gemini CLI.           ?/docs/cli/cli-reference.ll 
-Run w/ npx (NO PERM. INSTALL)             npx https://github.com/google -gemini/gemini-cli
+(Install "Gemini CLI" globally with NPM.)   [npm install -g @google/gemini-cli]
+(RUN:Gemini CLI)             [?/docs/cli/cli-reference.ll]
+(Run w/ NPX: NO PERM.INSTALL)             npx https://github.com/google -gemini/gemini-cli
