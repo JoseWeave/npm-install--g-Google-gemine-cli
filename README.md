@@ -11,3 +11,6 @@
 ☆PRODUCTION MODE (REACT Optimizations):    ● This method RUNS THE CLI (w/) REACT, while PRODUCTION MODE is ENABLED. (For TESTING PERFORMANCE (w/o DEVELOPMENT OVERHEAD):                                 bash                                     #npm run start:prod
 ☆PRODUCTION-LIKE MODE (Linked Package):    ● This method STIMULATES a GLOBAL INSTALLATION, by LINKING your LOCAL PACKAGE. (Useful for TESTING a LOCAL BUILD in a PRODUCTION WORKFLOW.      ☆LINK your LOCAL PACKAGE to your GLOBAL NODE_MODULES:                              #npm link package/cli
 ☆NOW: You can run your local version using GEMINI COMMAND:                     #gemini                                    '''                                       </TabItem>                                </Tabs>
+☆RELEASES:                                  *GEMINI CLI has 3 "RELEASE CHANNELS":   ●STABLE(Recommended;Default installation) ●PREVIEW (&)                              ●NIGHTLY
+  *(NOTE): ASSUME that there are"Pending" (VIOLATIONS/ISSUES). Help to TEST THE LATEST CHANGES by:
+☆Install (w/) NIGHTLY Tag:                <TABS>                                     bash                                    #npm install-g @google/gemini-cli@nightly </TabItem>                               </Tabs>                                   <TabItem label="Stable">
