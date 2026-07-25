@@ -1,14 +1,32 @@
-☆(Install "Gemini CLI" globally w/ NPM):   #npm install -g @google/gemini-cli
-☆(RUN:Gemini CLI with the gemini):          #?/docs/cli/cli-reference.ll               bash                                      #gemini
-☆(Run w/ NPX: NO PERM. Install):           #<Tabs><TabItem_label="npx">
-☆Using NPX (NO INSTALL REQ.):              #npx @google/gemini-cli
-☆Execute CLI,Directly from main branch on GITHUB:(For TESTING FEATURES still in DEVELOPMENT:                          
-bash                                      #npx https://github.com/google/google-gemini/gemini-cli.                        
-(For SECURITY & ISOLATION):                *GEMINI CLI can be run INSIDE of a CONTAINER. (This is the DEFAULT way that the CLI executes TOOLS that may have "side effects"). *You can run the PUBLISHED SANDBOX IMAGE: (Useful for ENVIRONMENTS, where you only have DOCKER)
-☆RUN the CLI:                                         #Run the PUBLISHED SANDBOX IMAGE for a specified CLI version:
-☆LINES:                     
-1)docker run --rm -it us-docker.pkg.dev/    2)gemini-code-dev/gemini-cli/               3)sandbox:0.42.0- 
-4)                          5)nightly.20260428.g59b2dea0e
+☆(Install "Gemini CLI" globally w/ NPM):                             ● npm install -g @google/gemini-cli
+
+☆(RUN:Gemini CLI with the gemini):
+  ● ?/docs/cli/cli-reference.ll               
+
+bash                                      #gemini
+
+☆[Run w/ NPX: (No Perm.Install)]:            
+   ● <Tabs><TabItem_label="npx">
+
+☆Using NPX (NO INSTALL REQ.):      
+   ● npx @google/gemini-cli
+
+☆Execute CLI,Directly from main branch on GITHUB:(For TESTING FEATURES still 
+IN DEVELOPMENT:                          
+
+bash                                       npx https://github.com/google/google-gemini/gemini-cli.                        
+(For SECURITY & ISOLATION):                 **GEMINI CLI can be run INSIDE ofa CONTAINER. (This is the DEFAULT way that the,"CLI", executes TOOLS that MAY have "SIDE EFFECTS"). 
+
+☆RUN THE CLI:
+  ● You can run the PUBLISHED SANDBOX IMAGE: (Useful for ENVIRONMENTS, where u ONLY have: DOCKER)                                                 
+   
+☆Run the PUBLISHED SANDBOX IMAGE for a specified CLI version:
+☆[(LINE #'s):(1-5)]                     
+ 1)docker run --rm -it us-docker.pkg.dev/            
+ 2)gemini-code-dev/gemini-cli/                   
+ 3)sandbox:0.42.0- 
+ 4)                                              
+ 5)nightly.20260428.g59b2dea0e
 
 ☆Instruct it to RUN INSIDE the SANDBOX    CONTAINER:                                bash                                 #gemini--sandbox -y -p "your prompt here"
 
