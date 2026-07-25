@@ -4,7 +4,7 @@
 ☆(RUN:Gemini CLI with the gemini):
   ?/docs/cli/cli-reference.ll               
 
-bash                                      #gemini
+bash                                      gemini
 
 ☆[Run w/ NPX: (No Perm.Install)]:            
   <Tabs><TabItem_label="npx">
