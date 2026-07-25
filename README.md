@@ -1,27 +1,30 @@
-☆(Install "Gemini CLI" globally w/ NPM):                             ● npm install -g @google/gemini-cli
+☆(Install "Gemini CLI" globally.             
+  npm install -g @google/gemini-cli
 
 ☆(RUN:Gemini CLI with the gemini):
-  ● ?/docs/cli/cli-reference.ll               
+  ?/docs/cli/cli-reference.ll               
 
 bash                                      #gemini
 
 ☆[Run w/ NPX: (No Perm.Install)]:            
-   ● <Tabs><TabItem_label="npx">
+  <Tabs><TabItem_label="npx">
 
 ☆Using NPX (NO INSTALL REQ.):      
-   ● npx @google/gemini-cli
+  npx @google/gemini-cli
 
 ☆Execute CLI,Directly from main branch on GITHUB:(For TESTING FEATURES still 
 IN DEVELOPMENT:                          
 
-bash                                       npx https://github.com/google/google-gemini/gemini-cli.                        
+bash 
+                                         v npx https://github.com/google/google-gemini/gemini-cli.                        
+
 (For SECURITY & ISOLATION):                 **GEMINI CLI can be run INSIDE ofa CONTAINER. (This is the DEFAULT way that the,"CLI", executes TOOLS that MAY have "SIDE EFFECTS"). 
 
 ☆RUN THE CLI:
   ● You can run the PUBLISHED SANDBOX IMAGE: (Useful for ENVIRONMENTS, where u ONLY have: DOCKER)                                                 
    
 ☆Run the PUBLISHED SANDBOX IMAGE for a specified CLI version:
-☆[(LINE #'s):(1-5)]                     
+  ☆[(LINE #'s):(1-5)]☆                    
  1)docker run --rm -it us-docker.pkg.dev/            
  2)gemini-code-dev/gemini-cli/                   
  3)sandbox:0.42.0- 
