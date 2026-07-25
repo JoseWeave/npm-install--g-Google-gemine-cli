@@ -1,10 +1,29 @@
-☆(Install "Gemini CLI" globally.             
-  npm install -g @google/gemini-cli
+(1)Install "Gemini CLI" globally:             
+ ●[npm install -g @google/gemini-cli]
 
-☆(RUN:Gemini CLI with the gemini):
-  ?/docs/cli/cli-reference.ll               
+        ☆Install Gemini CLI☆:
+(1)Open: "cloudshell" OR "Cloud Workstation"
+(2)Open:(Terminal)/(Command Prompt)
+(3)Open:"Gemini Code Assist",& type in:
+       <Tabs><TabItem_label="npm">
+                                **(ANACONDA=(NEW ENVIRONMENT)**
 
-bash                                      gemini
+(4)[Create:(NEW ENVIRONMENT):
+1[conda create -y -n gemini_env-c conda-]
+2[forget nodejs                         ]
+3[conda activate gemini_env             ]
+4[                                      ] 5[<br>                                  ]
+
+         ☆Install Gemini CLI☆
+  
+(1)Open: "cloudshell" OR "Cloud Workstation"
+  
+(2)Open:(Terminal)/(Command Prompt),& then:      
+ (#)=([?/docs/cli/cli-reference.ll])            
+   
+ [  bash            ]                              
+ [                  ]
+ [  gemini          ]
 
 ☆[Run w/ NPX: (No Perm.Install)]:            
   <Tabs><TabItem_label="npx">
@@ -13,10 +32,9 @@ bash                                      gemini
   npx @google/gemini-cli
 
 ☆Execute CLI,Directly from main branch on GITHUB:(For TESTING FEATURES still 
-IN DEVELOPMENT:                          
-
-bash 
-                                         v npx https://github.com/google/google-gemini/gemini-cli.                        
+IN DEVELOPMENT: 
+1)[npx instll -g@google/gemini-cli]
+2)[https://github.com/google/google-gemini/gemini-cli.                        
 
 (For SECURITY & ISOLATION):                 **GEMINI CLI can be run INSIDE ofa CONTAINER. (This is the DEFAULT way that the,"CLI", executes TOOLS that MAY have "SIDE EFFECTS"). 
 
